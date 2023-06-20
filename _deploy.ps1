@@ -1,3 +1,11 @@
+$tenantId = "<tenantId>"
+$subscriptionId = "<subscriptionId>"
+$resourceGroupName = "<resourceGroupName>"
+$functionName = "<functionName>"
+
+az login --tenant $tenantId 
+az account set --subscription $subscriptionId
+
 $resourceGroupName = "<resourceGroupName>"
 $functionName = "<functionName>"
 
